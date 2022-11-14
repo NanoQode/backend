@@ -34,7 +34,7 @@ app.post('/data', (req, res) => {
 
     let mailDetails = {
         from: content.email,
-        to: 'iamjosephadu@gmail.com',
+        to: 'help@nanoqode.com',
         subject: title,
         text: `Content: ${JSON.stringify(content)}`
     };
